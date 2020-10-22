@@ -24,9 +24,11 @@ meta.button.highlighted {
   background: linear-gradient(rgba(102, 87, 152, 0.25), rgba(47, 40, 70, 0.25));
 }
 meta.button.highlighted.selected {
+  background: linear-gradient(rgba(53, 174, 233, 0.75), rgba(16, 101, 143, 0.75));
   color: #dee5eb;
 }
 meta.button.selected {
+  background: linear-gradient(#35aee9, #10658f);
   color: #dee5eb;
 }
 meta.button.disabled {
@@ -278,4 +280,4 @@ terminal.white {
   color: #dee5eb;
 }
 
-/*# sourceMappingURL=dark.css.map */
+/*# sourceMappingURL=Tonkai%20Dark.css.map */
