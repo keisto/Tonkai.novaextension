@@ -2,7 +2,11 @@
     "identifier": "com.tonykeiser.Tonkai",
     "name": "Tonkai",
     "organization": "Tony Keiser",
-    "description": "Lorem ipsum, dolor sit amet.",
+    "description": "🌚",
     "version": "1.0",
-    "categories": ["themes"]
+    "categories": ["themes"],
+    "homepage": "https://tonykeiser.com",
+    "repository": "https://github.com/keisto/Tonkai.novaextension",
+    "bugs": "https://github.com/keisto/Tonkai.novaextension/issues",
+    "license": "MIT"
 }

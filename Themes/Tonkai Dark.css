@@ -1,0 +1,281 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: true;
+}
+meta.window {
+  background-color: #1a1626;
+  border-color: rgba(102, 87, 152, 0.25);
+}
+meta.titlebar {
+  color: #dee5eb;
+  background: #1a1626;
+  border-color: rgba(102, 87, 152, 0.25);
+}
+meta.titlebar.inactive {
+  background-color: #1a1626;
+}
+meta.button {
+  background: linear-gradient(rgba(102, 87, 152, 0.5), rgba(47, 40, 70, 0.5));
+  border-color: rgba(102, 87, 152, 0.25);
+  color: #dee5eb;
+}
+meta.button.highlighted {
+  background: linear-gradient(rgba(102, 87, 152, 0.25), rgba(47, 40, 70, 0.25));
+}
+meta.button.highlighted.selected {
+  color: #dee5eb;
+}
+meta.button.selected {
+  color: #dee5eb;
+}
+meta.button.disabled {
+  background-color: transparent;
+  color: rgba(143, 131, 184, 0.5);
+}
+meta.textfield {
+  background-color: #201b30;
+  border-color: rgba(102, 87, 152, 0.25);
+}
+meta.textfield.active {
+  background-color: #665798;
+  border-color: #eabe41;
+}
+meta.document {
+  background-color: #201b30;
+  border-color: rgba(102, 87, 152, 0.25);
+}
+meta.document.button {
+  background: linear-gradient(rgba(102, 87, 152, 0.5), rgba(47, 40, 70, 0.5));
+  border-color: rgba(102, 87, 152, 0.25);
+}
+meta.document.button.disabled {
+  background-color: transparent;
+  color: rgba(143, 131, 184, 0.5);
+}
+meta.document.button.highlighted {
+  background: linear-gradient(rgba(102, 87, 152, 0.25), rgba(47, 40, 70, 0.25));
+}
+meta.document.textfield {
+  background-color: rgba(47, 40, 70, 0.5);
+  border-color: rgba(102, 87, 152, 0.25);
+}
+meta.text {
+  color: #dee5eb;
+}
+meta.text.invisible {
+  color: #2f2846;
+}
+meta.text.selected {
+  background-color: rgba(47, 40, 70, 0.5);
+}
+meta.cursor {
+  background-color: rgba(47, 40, 70, 0.5);
+}
+meta.indentguide {
+  border-color: rgba(102, 87, 152, 0.15);
+}
+meta.gutter {
+  color: rgba(102, 87, 152, 0.5);
+}
+meta.gutter.selected {
+  background-color: rgba(47, 40, 70, 0.5);
+  color: #8f83b8;
+}
+
+keyword {
+  color: #ed5bd0;
+}
+
+comment {
+  color: rgba(114, 98, 165, 0.5);
+}
+
+processing {
+  color: rgba(114, 98, 165, 0.5);
+}
+
+declaration {
+  color: #dee5eb;
+}
+
+bracket {
+  color: #665798;
+}
+
+operator {
+  color: #665798;
+}
+
+invalid {
+  background-color: #e72662;
+  color: #dee5eb;
+}
+
+link {
+  color: #35aee9;
+}
+
+value.boolean, value.null, value.number, value.entity {
+  color: #ed815b;
+}
+value.symbol {
+  color: #ed5bd0;
+}
+
+identifier.type {
+  color: #eabe41;
+}
+identifier.global {
+  color: #3aae64;
+}
+identifier.variable {
+  color: #9072f1;
+}
+identifier.property {
+  color: #3aae64;
+}
+identifier.argument {
+  color: #9072f1;
+}
+identifier.decorator, identifier.method {
+  color: #ed5bd0;
+}
+identifier.function, identifier.core.function {
+  color: #35aee9;
+}
+
+string,
+string.key,
+string-template,
+string-template.value {
+  color: #eabe41;
+}
+
+string.double-quoted.escape,
+string.single-quoted.escape,
+regex.escaped {
+  color: #35aee9;
+}
+
+cdata {
+  color: #ed5bd0;
+}
+
+markup.heading {
+  color: #9072f1;
+}
+markup.image.markup.link, markup.line {
+  color: #eabe41;
+}
+markup.bold {
+  color: #ed815b;
+  font-weight: bold;
+}
+markup.italic {
+  color: #ed5bd0;
+  font-style: italic;
+}
+markup.strikethrough {
+  color: #e72662;
+}
+markup.list.item {
+  color: #e72662;
+}
+markup.code {
+  color: #3aae64;
+}
+
+markdown.image.string {
+  color: #35aee9;
+}
+
+definition.class class.name, definition.type type.name, definition.package package.name, definition.enum enum.name, definition.union union.name, definition.struct struct.name {
+  font-weight: bold;
+  color: #ed5bd0;
+}
+definition.property property.name, definition.function function.name, definition.method method.name {
+  color: #35aee9;
+}
+
+tag {
+  color: #9072f1;
+}
+tag.framework {
+  color: #e72662;
+}
+tag.attribute.name {
+  color: #ed815b;
+}
+tag.attribute.value {
+  color: #eabe41;
+}
+tag.attribute.value.link {
+  color: #35aee9;
+  text-decoration: underline;
+}
+tag.attribute.equals-sign {
+  color: rgba(114, 98, 165, 0.5);
+}
+tag.open.paired, tag.close, tag.open.single {
+  color: rgba(114, 98, 165, 0.5);
+}
+
+style.at, style.selector.separator, style.value.keyword.important, style.value.keyword.default, style.selector {
+  color: #ed5bd0;
+}
+style.selector.identifier.id {
+  color: #ed5bd0;
+}
+style.value.color.hex {
+  color: #3aae64;
+}
+style.value.number, style.value.color.named, style.selector.pseudoclass, style.selector.pseudoelement, style.selector.attribute.name, style.selector.attribute.single, style.selector.identifier.class {
+  color: #ed815b;
+}
+style.value.identifier.function {
+  color: #35aee9;
+}
+style.selector.attribute.pseudoclass, style.selector.attribute.pseudoelement, style.attribute.identifier.name, style.value.identifier.variable, style.selector.element {
+  color: #9072f1;
+}
+style.value {
+  color: #8f83b8;
+}
+style.attribute.name {
+  color: #dee5eb;
+}
+style.value.bracket {
+  color: rgba(114, 98, 165, 0.5);
+}
+style.selector.operator {
+  color: rgba(114, 98, 165, 0.5);
+}
+
+python.identifier.argument.name {
+  color: #9072f1;
+}
+
+terminal.red {
+  color: #e72662;
+}
+terminal.green {
+  color: #3aae64;
+}
+terminal.yellow {
+  color: #eabe41;
+}
+terminal.blue {
+  color: #35aee9;
+}
+terminal.magenta {
+  color: #ed5bd0;
+}
+terminal.cyan {
+  color: #46bbad;
+}
+terminal.white {
+  color: #dee5eb;
+}
+
+/*# sourceMappingURL=dark.css.map */
