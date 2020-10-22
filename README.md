@@ -10,4 +10,4 @@
 
 # Tonkai
 
-👨🏽‍🚀 My first theme... 🚀
+👨🏽‍🚀 My first theme... 🚀 (inspired by [Atom Pure Dark Syntax](https://github.com/pfist/pure-dark-syntax), [Wavēy](https://hector.me/wavey), [Stripe](https://stripe.com), [TailwindCSS](https://tailwindcss.com))
