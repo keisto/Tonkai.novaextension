@@ -5,84 +5,84 @@ meta {
 }
 meta.window {
   background-color: #1a1626;
-  border-color: rgba(102, 87, 152, 0.25);
+  border-color: rgba(103, 87, 151, 0.25);
 }
 meta.titlebar {
-  color: #dee5eb;
+  color: #e0ddeb;
   background: #1a1626;
-  border-color: rgba(102, 87, 152, 0.25);
+  border-color: rgba(103, 87, 151, 0.25);
 }
 meta.titlebar.inactive {
   background-color: #1a1626;
 }
 meta.button {
-  background: linear-gradient(rgba(102, 87, 152, 0.5), rgba(47, 40, 70, 0.5));
-  border-color: rgba(102, 87, 152, 0.25);
-  color: #dee5eb;
-}
-meta.button.highlighted {
-  background: linear-gradient(rgba(102, 87, 152, 0.25), rgba(47, 40, 70, 0.25));
-}
-meta.button.highlighted.selected {
-  background: linear-gradient(rgba(53, 174, 233, 0.75), rgba(16, 101, 143, 0.75));
-  color: #dee5eb;
+  background: linear-gradient(rgba(103, 87, 151, 0.25), rgba(81, 69, 119, 0.2));
+  border-color: rgba(103, 87, 151, 0.25);
+  color: #e0ddeb;
 }
 meta.button.selected {
-  background: linear-gradient(#35aee9, #10658f);
-  color: #dee5eb;
+  background: linear-gradient(#2ca3de, #135678);
+  color: #e0ddeb;
+}
+meta.button.highlighted {
+  background: linear-gradient(rgba(103, 87, 151, 0.5), rgba(81, 69, 119, 0.1));
+}
+meta.button.highlighted.selected {
+  background: linear-gradient(rgba(44, 163, 222, 0.75), rgba(19, 86, 120, 0.75));
+  color: #e0ddeb;
 }
 meta.button.disabled {
   background-color: transparent;
-  color: rgba(143, 131, 184, 0.5);
+  color: rgba(139, 130, 173, 0.5);
 }
 meta.textfield {
-  background-color: #201b30;
-  border-color: rgba(102, 87, 152, 0.25);
+  background-color: #211c30;
+  border-color: rgba(103, 87, 151, 0.25);
 }
 meta.textfield.active {
-  background-color: #665798;
-  border-color: #eabe41;
+  background-color: #211c30;
+  border-color: rgba(103, 87, 151, 0.5);
 }
 meta.document {
-  background-color: #201b30;
-  border-color: rgba(102, 87, 152, 0.25);
+  background-color: #211c30;
+  border-color: rgba(103, 87, 151, 0.25);
 }
 meta.document.button {
-  background: linear-gradient(rgba(102, 87, 152, 0.5), rgba(47, 40, 70, 0.5));
-  border-color: rgba(102, 87, 152, 0.25);
+  background: linear-gradient(rgba(103, 87, 151, 0.25), rgba(81, 69, 119, 0.2));
+  border-color: rgba(103, 87, 151, 0.25);
 }
 meta.document.button.disabled {
   background-color: transparent;
-  color: rgba(143, 131, 184, 0.5);
+  color: rgba(139, 130, 173, 0.5);
 }
 meta.document.button.highlighted {
-  background: linear-gradient(rgba(102, 87, 152, 0.25), rgba(47, 40, 70, 0.25));
+  background: linear-gradient(rgba(103, 87, 151, 0.5), rgba(81, 69, 119, 0.1));
 }
 meta.document.textfield {
-  background-color: rgba(47, 40, 70, 0.5);
-  border-color: rgba(102, 87, 152, 0.25);
+  background-color: rgba(81, 69, 119, 0.15);
+  border-color: rgba(103, 87, 151, 0.25);
 }
 meta.text {
-  color: #dee5eb;
+  color: #e0ddeb;
 }
 meta.text.invisible {
-  color: #2f2846;
+  color: #514577;
 }
 meta.text.selected {
-  background-color: rgba(47, 40, 70, 0.5);
+  background-color: rgba(81, 69, 119, 0.15);
 }
 meta.cursor {
-  background-color: rgba(47, 40, 70, 0.5);
+  background-color: rgba(81, 69, 119, 0.15);
 }
 meta.indentguide {
-  border-color: rgba(102, 87, 152, 0.15);
+  border-color: rgba(103, 87, 151, 0.15);
 }
 meta.gutter {
-  color: rgba(102, 87, 152, 0.5);
+  color: #514577;
 }
 meta.gutter.selected {
-  background-color: rgba(47, 40, 70, 0.5);
-  color: #8f83b8;
+  background-color: rgba(81, 69, 119, 0.15);
+  color: #8b82ad;
 }
 
 keyword {
@@ -90,36 +90,36 @@ keyword {
 }
 
 comment {
-  color: rgba(114, 98, 165, 0.5);
+  color: #514577;
 }
 
 processing {
-  color: rgba(114, 98, 165, 0.5);
+  color: #514577;
 }
 
 declaration {
-  color: #dee5eb;
+  color: #e0ddeb;
 }
 
 bracket {
-  color: #665798;
+  color: #675797;
 }
 
 operator {
-  color: #665798;
+  color: #675797;
 }
 
 invalid {
   background-color: #e72662;
-  color: #dee5eb;
+  color: #e0ddeb;
 }
 
 link {
-  color: #35aee9;
+  color: #2ca3de;
 }
 
 value.boolean, value.null, value.number, value.entity {
-  color: #ed815b;
+  color: #ed6e40;
 }
 value.symbol {
   color: #ed5bd0;
@@ -144,7 +144,7 @@ identifier.decorator, identifier.method {
   color: #ed5bd0;
 }
 identifier.function, identifier.core.function {
-  color: #35aee9;
+  color: #2ca3de;
 }
 
 string,
@@ -157,7 +157,12 @@ string-template.value {
 string.double-quoted.escape,
 string.single-quoted.escape,
 regex.escaped {
-  color: #35aee9;
+  color: #2ca3de;
+}
+
+string.double-quoted.delimiter,
+string.single-quoted.delimiter {
+  color: #675797;
 }
 
 cdata {
@@ -171,7 +176,7 @@ markup.image.markup.link, markup.line {
   color: #eabe41;
 }
 markup.bold {
-  color: #ed815b;
+  color: #ed6e40;
   font-weight: bold;
 }
 markup.italic {
@@ -189,7 +194,7 @@ markup.code {
 }
 
 markdown.image.string {
-  color: #35aee9;
+  color: #2ca3de;
 }
 
 definition.class class.name, definition.type type.name, definition.package package.name, definition.enum enum.name, definition.union union.name, definition.struct struct.name {
@@ -197,7 +202,7 @@ definition.class class.name, definition.type type.name, definition.package packa
   color: #ed5bd0;
 }
 definition.property property.name, definition.function function.name, definition.method method.name {
-  color: #35aee9;
+  color: #2ca3de;
 }
 
 tag {
@@ -207,51 +212,48 @@ tag.framework {
   color: #e72662;
 }
 tag.attribute.name {
-  color: #ed815b;
+  color: #ed6e40;
 }
 tag.attribute.value {
   color: #eabe41;
 }
 tag.attribute.value.link {
-  color: #35aee9;
+  color: #2ca3de;
   text-decoration: underline;
 }
+tag.attribute.value.quote.right, tag.attribute.value.quote.left {
+  color: #514577;
+}
 tag.attribute.equals-sign {
-  color: rgba(114, 98, 165, 0.5);
+  color: #514577;
 }
 tag.open.paired, tag.close, tag.open.single {
-  color: rgba(114, 98, 165, 0.5);
+  color: #514577;
 }
 
-style.at, style.selector.separator, style.value.keyword.important, style.value.keyword.default, style.selector {
+style.at, style.selector, style.selector.separator, style.value.keyword.default, style.selector.identifier.id, style.value.keyword.important {
   color: #ed5bd0;
 }
-style.selector.identifier.id {
-  color: #ed5bd0;
+style.value {
+  color: #8b82ad;
+}
+style.attribute.name {
+  color: #e0ddeb;
 }
 style.value.color.hex {
   color: #3aae64;
 }
 style.value.number, style.value.color.named, style.selector.pseudoclass, style.selector.pseudoelement, style.selector.attribute.name, style.selector.attribute.single, style.selector.identifier.class {
-  color: #ed815b;
+  color: #ed6e40;
 }
 style.value.identifier.function {
-  color: #35aee9;
+  color: #2ca3de;
 }
 style.selector.attribute.pseudoclass, style.selector.attribute.pseudoelement, style.attribute.identifier.name, style.value.identifier.variable, style.selector.element {
   color: #9072f1;
 }
-style.value {
-  color: #8f83b8;
-}
-style.attribute.name {
-  color: #dee5eb;
-}
-style.value.bracket {
-  color: rgba(114, 98, 165, 0.5);
-}
-style.selector.operator {
-  color: rgba(114, 98, 165, 0.5);
+style.value.bracket, style.selector.operator, style.attribute.separator, style.variable-definition.separator {
+  color: #514577;
 }
 
 python.identifier.argument.name {
@@ -268,16 +270,14 @@ terminal.yellow {
   color: #eabe41;
 }
 terminal.blue {
-  color: #35aee9;
+  color: #2ca3de;
 }
 terminal.magenta {
   color: #ed5bd0;
 }
 terminal.cyan {
-  color: #46bbad;
+  color: #4ec7b9;
 }
 terminal.white {
-  color: #dee5eb;
+  color: #e0ddeb;
 }
-
-/*# sourceMappingURL=Tonkai%20Dark.css.map */
